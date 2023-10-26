@@ -1,0 +1,12 @@
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Modals/bin/Debug/net7.0/CurrencyExchange.Models.deps.json
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Modals/bin/Debug/net7.0/CurrencyExchange.Models.dll
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Modals/bin/Debug/net7.0/CurrencyExchange.Models.pdb
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Modals/obj/Debug/net7.0/CurrencyExchange.Models.csproj.AssemblyReference.cache
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Modals/obj/Debug/net7.0/CurrencyExchange.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Modals/obj/Debug/net7.0/CurrencyExchange.Models.AssemblyInfoInputs.cache
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Modals/obj/Debug/net7.0/CurrencyExchange.Models.AssemblyInfo.cs
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Modals/obj/Debug/net7.0/CurrencyExchange.Models.csproj.CoreCompileInputs.cache
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Modals/obj/Debug/net7.0/CurrencyExchange.Models.dll
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Modals/obj/Debug/net7.0/refint/CurrencyExchange.Models.dll
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Modals/obj/Debug/net7.0/CurrencyExchange.Models.pdb
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Modals/obj/Debug/net7.0/ref/CurrencyExchange.Models.dll

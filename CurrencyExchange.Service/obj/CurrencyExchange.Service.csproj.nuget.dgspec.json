@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange/CurrencyExchange.csproj": {}
+    "/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/CurrencyExchange.Service.csproj": {}
   },
   "projects": {
     "/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Modals/CurrencyExchange.Models.csproj": {
@@ -126,85 +126,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange/CurrencyExchange.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange/CurrencyExchange.csproj",
-        "projectName": "CurrencyExchange",
-        "projectPath": "/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange/CurrencyExchange.csproj",
-        "packagesPath": "/Users/divyalal/.nuget/packages/",
-        "outputPath": "/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/divyalal/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.309/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/CurrencyExchange.Service.csproj": {
-                "projectPath": "/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/CurrencyExchange.Service.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.12, )"
-            },
-            "NLog": {
-              "target": "Package",
-              "version": "[5.2.5, )"
-            },
-            "NLog.Web.AspNetCore": {
-              "target": "Package",
-              "version": "[5.3.5, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

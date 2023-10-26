@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EyLOaGeJS+llcKmZJMzvXK02PEKXVDzpBnp6Q09L+gTADISOBKCAf78l2MH/6ZwHBAtawWVmYkl8xMFJ64zm/g==",
+  "success": true,
+  "projectFilePath": "/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Modals/CurrencyExchange.Models.csproj",
+  "expectedPackageFiles": [
+    "/Users/divyalal/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

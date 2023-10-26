@@ -1,0 +1,15 @@
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/bin/Debug/net7.0/CurrencyExchange.Service.deps.json
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/bin/Debug/net7.0/CurrencyExchange.Service.dll
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/bin/Debug/net7.0/CurrencyExchange.Service.pdb
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/bin/Debug/net7.0/CurrencyExchange.Models.dll
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/bin/Debug/net7.0/CurrencyExchange.Models.pdb
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/obj/Debug/net7.0/CurrencyExchange.Service.csproj.AssemblyReference.cache
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/obj/Debug/net7.0/CurrencyExchange.Service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/obj/Debug/net7.0/CurrencyExchange.Service.AssemblyInfoInputs.cache
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/obj/Debug/net7.0/CurrencyExchange.Service.AssemblyInfo.cs
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/obj/Debug/net7.0/CurrencyExchange.Service.csproj.CoreCompileInputs.cache
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/obj/Debug/net7.0/CurrencyExchange.Service.csproj.CopyComplete
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/obj/Debug/net7.0/CurrencyExchange.Service.dll
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/obj/Debug/net7.0/refint/CurrencyExchange.Service.dll
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/obj/Debug/net7.0/CurrencyExchange.Service.pdb
+/Users/divyalal/Projects/CurrencyExchange/CurrencyExchange.Service/obj/Debug/net7.0/ref/CurrencyExchange.Service.dll
