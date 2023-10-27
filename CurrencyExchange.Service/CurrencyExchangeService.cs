@@ -20,7 +20,6 @@ namespace CurrencyExchange.Service
 
         public async Task<CurrencyExchangeModel> getCurrencyExchange(string fromCurrency, string toCurrency, int amount, DateTime ? date = null)
         {
-
             try
             {
                 _logger.LogInformation("Started getting Currency Exchange in Service Class");
@@ -28,14 +27,13 @@ namespace CurrencyExchange.Service
 
                 if (date.HasValue)
                 {
-                    externalApiUrl = string.Format(string.Concat(baseApiUrl, withDateRateUrl), date, fromCurrency, toCurrency);
+                    externalApiUrl = string.Format(string.Concat(baseApiUrl, withDateRateUrl), date.Value.ToString("yyyy-MM-dd"), fromCurrency, toCurrency);
 
                 }
                 else
                 {
                     externalApiUrl = string.Format(string.Concat(baseApiUrl, latestRateUrl), fromCurrency, toCurrency);
                 }
-
                 _logger.LogInformation("external url :{}", externalApiUrl);
 
                 HttpClient httpClient = new HttpClient();
