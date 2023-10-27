@@ -17,7 +17,8 @@ namespace CurrencyExchange.Service
             _logger = logger;
 
         }
-        public async Task<CurrencyExchangeModel> getCurrencyExchange(string fromCurrency, string toCurrency, int amount, DateTime? date = null)
+
+        public async Task<CurrencyExchangeModel> getCurrencyExchange(string fromCurrency, string toCurrency, int amount, DateTime ? date = null)
         {
 
             try
@@ -52,7 +53,8 @@ namespace CurrencyExchange.Service
                 CurrencyExchangeModel actualResponse = new();
                 if (exchangeRateResponse.Success)
                 {
-                    double convertedRate = double.Parse(exchangeRateResponse.ConvertionRates?.Values?.FirstOrDefault()) * amount;
+                    string? exchangeValue = exchangeRateResponse.ConvertionRates?.Values?.FirstOrDefault();
+                    double convertedRate = double.Parse(exchangeValue) * amount;
                     actualResponse.Rate = convertedRate;
                 }
                 else

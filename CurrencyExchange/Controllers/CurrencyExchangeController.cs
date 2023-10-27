@@ -22,19 +22,27 @@ namespace CurrencyExchange.Controllers
         }
 
 		[HttpGet]
-		[Route("/{fromCurrency}/{toCurrency}/{amount}")]
-		public async Task<ActionResult<CurrencyExchangeModel>> getCurrencyExchangeRate(string fromCurrency, string toCurrency, int amount)
+		[Route("/getCurrencyExchange/{fromCurrency}/{toCurrency}/{amount}")]
+		public async Task<ActionResult<CurrencyExchangeModel>> getCurrencyExchangeRate(string fromCurrency, string toCurrency, int amount, DateTime? date = null)
 		{
-			_logger.LogInformation("Get currency exchange started");
-            CurrencyExchangeModel response = await _service.getCurrencyExchange(fromCurrency, toCurrency, amount);
-
-			if(response == null)
+			try
 			{
-				_logger.LogInformation("getCurrencyExchange executed with null response");
+                _logger.LogInformation("Get currency exchange started");
+                CurrencyExchangeModel response = await _service.getCurrencyExchange(fromCurrency, toCurrency, amount, date);
+
+                if (response == null)
+                {
+                    _logger.LogInformation("getCurrencyExchange executed with null response");
+                    return null;
+                }
+                _logger.LogInformation("getCurrencyExchange executed successfully");
+                return Ok(response);
+            } catch
+			{
+				_logger.LogError("Error occured while calling or from service layer");
 				return null;
 			}
-            _logger.LogInformation("getCurrencyExchange executed successfully");
-            return Ok(response);
+			
 		}
 
 
